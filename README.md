@@ -10,14 +10,14 @@ Or just pull from jevsilv/riscv-setup:
 
     $ sudo docker pull jevsilv/riscv-setup:<tag>
 
-Running the container:
+Run the container:
 
     $ sudo docker run --name <name> -it <container> bash
 
-Starting the container:
+Start the container:
 
     $ sudo docker start <container-id>
 
-Attaching thec container:
+Attach the container:
 
     $ sudo docker attach <container-id>
