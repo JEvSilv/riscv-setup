@@ -12,12 +12,14 @@ Or just pull from jevsilv/riscv-setup:
 
 Run the container:
 
-    $ sudo docker run --name <name> -it <container> bash
+    $ sudo docker run --name <container-name> -it <container> bash
 
 Start the container:
 
-    $ sudo docker start <container-id>
+    $ sudo docker start <container-name>
 
 Attach the container:
 
-    $ sudo docker attach <container-id>
+    $ sudo docker attach <container-name>
+    
+[CTRL + P and Q]: To exit of the container without turn off it.
